@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Facade;
 
 return [
 
+    'contact' => [
+      'phone' => env('PHONE', 'Nihuia')
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

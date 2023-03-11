@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title') :: Portfolio</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body>
+    <x-header></x-header>
 @yield('content')
 </body>
 </html>

@@ -1,0 +1,21 @@
+@import "bootstrap";
+@import "//node_modules/bootstrap-icons";
+@import "navbar";
+
+:root {
+    --bg-color: #fafafa;
+    --text-color: #171717;
+    .dark {
+        --bg-color: #171717;
+        --text-color: #fafafa;
+    }
+}
+
+html {
+
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,29 @@
+.navbar {
+    text-transform: uppercase;
+
+    .logo {
+        max-height: 75px;
+    }
+
+    .nav-item {
+        .nav-link {
+            &, &.active {
+                color: var(--text-color);
+            }
+        }
+    }
+
+    #theme-toggle {
+        .bi-brightness-high {
+            @at-root .dark & {
+                display: none;
+            }
+        }
+
+        .bi-moon {
+            @at-root .dark & {
+                display: initial!important;
+            }
+        }
+    }
+}

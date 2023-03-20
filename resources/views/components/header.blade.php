@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container d-flex">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ '/' }}">
             <img class="logo" src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/logo.png') }}">
         </a>
         </span>
@@ -11,19 +11,19 @@
             <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
+                        <a class="nav-link active" aria-current="page" href="{{ '/' }}">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Motion design</a>
+                        <a class="nav-link" href="{{ 'motion-design' }}">Motion design</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Illustration</a>
+                        <a class="nav-link" href="{{ 'illustration' }}">Illustration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Video editing</a>
+                        <a class="nav-link" href="{{ 'video-editing' }}">Video editing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Social media & website animation</a>
+                        <a class="nav-link" href="{{ 'social_media_and_website_animation' }}">Social media & website animation</a>
                     </li>
 
                     <li>

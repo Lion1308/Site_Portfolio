@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>@yield('title') :: Portfolio</title>
+    <title>MP : @yield('title')</title>
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body>

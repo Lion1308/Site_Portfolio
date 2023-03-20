@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MP : @yield('title')</title>
+    <title>@yield('title')</title>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body>

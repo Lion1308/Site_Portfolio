@@ -10,3 +10,5 @@ document.addEventListener('DOMContentLoaded', function (e) {
         darkMode ? body.classList.add('dark') : body.classList.remove('dark');
     })
 })
+
+

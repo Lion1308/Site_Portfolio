@@ -5,6 +5,8 @@
     <title>@yield('title')</title>
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
 <body>
     <x-header></x-header>

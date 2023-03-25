@@ -5,8 +5,10 @@ use Illuminate\Support\Facades\Facade;
 return [
 
     'contact' => [
-      'phone' => env('PHONE', 'Nihuia')
+      'phone' => env('PHONE', null),
+      'email' => env('EMAIL', 'info@portfolio.com'),
     ],
+
 
     /*
     |--------------------------------------------------------------------------

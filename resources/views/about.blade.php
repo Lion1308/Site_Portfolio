@@ -1,10 +1,38 @@
 @extends('layouts.main')
 @section('title', 'About me')
 @section('content')
+
+    <div class="hero py-5">
+        <div class="hero-container d-flex flex-column flex-md-row container align-items-center">
+            <div class="hero-title py-4">
+                <h1>Myroslava Prokopiuk</h1>
+                <h3>Graphic and Motion designer</h3>
+            </div>
+            <div class="hero-photo d-flex flex-grow-1 justify-content-center">
+                <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/photo.png') }}" alt="Myroslava Prokopiuk">
+            </div>
+        </div>
+        <div class="hero-bg container">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element1.png') }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element2.png') }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element3.png') }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element4.png') }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element5.png') }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/elements/element6.png') }}" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
     {{--    Start Skills--}}
-    <div class="container row mx-auto">
+    <div class="container d-flex row mx-auto">
         <div class="col-md-4 col-sm-12">
-            <p class="skills_MP">My Skills:</p>
+            <p class="">My Skills:</p>
             <ul class="list-unstyled">
                 <li>Explainer video</li>
                 <li>2d Character animation</li>

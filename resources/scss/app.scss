@@ -12,6 +12,7 @@
     --bg-color: #fafafa;
     --text-color: #3b3b3b;
     --primary-color: #670E7C;
+    --secondary-color: #575775;
     .dark {
         --bg-color: #3b3b3b;
         --text-color: #fafafa;
@@ -43,7 +44,7 @@ body {
             }
 
             h3 {
-
+                color: var(--secondary-color);
             }
         }
     }
@@ -64,39 +65,58 @@ body {
             &:nth-child(1) {
                 top: 0;
                 left: 20%;
+                transform: scale(0.8);
 
-                @include media-breakpoint-down(lg) {
-                    transform: rotate(90deg);
-                }
+                //@include media-breakpoint-down(lg) {
+                //    transform: rotate(90deg);
+                //}
 
             }
             &:nth-child(2) {
-                bottom: 25%;
-                left: 7%;
-                transform: scale(0.8);
+                bottom: 20%;
+                left: 0;
+                transform: scale(0.9);
             }
             &:nth-child(3) {
-                top: 0;
-                left: 0;
+                bottom: 10%;
+                left: 27%;
             }
             &:nth-child(4) {
-                top: 0;
-                left: 0;
+                bottom: -13%;
+                left: 47%;
+                transform: scale(0.8);
 
-                @include media-breakpoint-only(md) {
-                    display: block;
-                }
+                //@include media-breakpoint-only(md) {
+                //    display: block;
+                //}
             }
             &:nth-child(5) {
-                top: 0;
-                left: 0;
+                bottom: -5%;
+                right: 18%;
+                transform: scale(0.8);
             }
             &:nth-child(6) {
-                top: 0;
-                left: 0;
+                top: -13%;
+                right: 0;
+                transform: scale(0.6);
             }
         }
 
 
+    }
+}
+
+.skills {
+    .skills-title{
+        text-align: center;
+
+        h1 {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        h4 {
+            color: var(--secondary-color);
+        }
     }
 }

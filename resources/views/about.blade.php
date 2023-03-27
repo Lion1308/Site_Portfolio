@@ -4,11 +4,11 @@
 
     <div class="hero py-5">
         <div class="hero-container d-flex flex-column flex-md-row container align-items-center">
-            <div class="hero-title py-4">
+            <div class="hero-title py-4 col-md-5">
                 <h1>Myroslava Prokopiuk</h1>
                 <h3>Graphic and Motion designer</h3>
             </div>
-            <div class="hero-photo d-flex flex-grow-1 justify-content-center">
+            <div class="hero-photo d-flex flex-grow-1 justify-content-center col-md-7">
                 <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/photo.png') }}" alt="Myroslava Prokopiuk">
             </div>
         </div>
@@ -30,8 +30,12 @@
 
 
     {{--    Start Skills--}}
-    <div class="container d-flex row mx-auto">
-        <div class="col-md-4 col-sm-12">
+    <div class="skills container d-flex row mx-auto m-5">
+        <div class="skills-title container my-5">
+            <h1>Graduate Lisbon School of Design</h1>
+            <h4>Course Motion design</h4>
+        </div>
+        <div class="skills-list col-md-3 mx-5 col-sm-12">
             <p class="">My Skills:</p>
             <ul class="list-unstyled">
                 <li>Explainer video</li>
@@ -56,7 +60,7 @@
                 <li>Vector illustrations</li>
             </ul>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-3 mx-5 col-sm-12">
             <p class="light"> </p>
             <ul class="list-unstyled">
                 <li>Editing of all types of footage</li>
@@ -73,7 +77,7 @@
                 <li>Vacation video</li>
             </ul>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-3 mx-5 col-sm-12">
             <p class="skills_MP">Tools I use:</p>
             <ul class="list-unstyled">
                 <li>Adobe After Effects</li>

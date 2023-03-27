@@ -47,11 +47,12 @@ body {
             }
         }
 
-        //.hero-photo {
-        //    @include media-breakpoint-between(md xl) {
-        //        width: 80%;
-        //    }
-        //}
+        .hero-photo img{
+            width: 100%;
+            @include media-breakpoint-up(md) {
+                width: auto;
+            }
+        }
     }
 
     .hero-bg {
@@ -113,9 +114,10 @@ body {
 
 .skills {
     position: relative;
+    padding-bottom: 5rem !important;
 
-    p, li {
-        text-align: center;
+    p, li{
+        //text-align: center;
     }
 
     p {
@@ -138,6 +140,7 @@ body {
     .skills-bg {
         position: absolute;
         inset: 0;
+        bottom: 5%;
         z-index: -1;
 
         img {

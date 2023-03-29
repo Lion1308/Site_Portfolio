@@ -100,6 +100,7 @@
             <h1>
                 Testimonials
             </h1>
+            <hr>
             <h5>
                 I`m always happy to receive positive feedback from my great clients.
             </h5>

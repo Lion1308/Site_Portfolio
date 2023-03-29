@@ -19,17 +19,17 @@ Route::get('/', function () {
 
 
 Route::get('/motion-design', function () {
-    return view('md');
+    return view('motion-design');
 })->name('motion-design');
 
 Route::get('/illustration', function () {
-    return view('il');
+    return view('illustration');
 })->name('illustration');
 
 Route::get('/video-editing', function () {
-    return view('vd');
+    return view('video-editing');
 })->name('video-editing');
 
-Route::get('/social_media_and_website_animation', function () {
-    return view('smwa');
-})->name('social_media_and_website_animation');
+Route::get('/web-animation', function () {
+    return view('web-animation');
+})->name('web-animation');

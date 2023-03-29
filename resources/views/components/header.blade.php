@@ -69,8 +69,7 @@
                     <a class="nav-link" href="{{ 'video-editing' }}">Video editing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ 'social_media_and_website_animation' }}">Web
-                        animation</a>
+                    <a class="nav-link" href="{{ 'web-animation' }}">Web animation</a>
                 </li>
 
                 <li>

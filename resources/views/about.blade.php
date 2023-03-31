@@ -9,7 +9,7 @@
                 <h3>Graphic and Motion designer</h3>
             </div>
             <div class="hero-photo d-flex flex-grow-1 justify-content-center col-md-7">
-                <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/photo.png') }}" alt="Myroslava Prokopiuk">
+                <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/photo.webp') }}" alt="Myroslava Prokopiuk">
             </div>
         </div>
         <div class="hero-bg container">

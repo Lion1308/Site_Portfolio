@@ -72,7 +72,6 @@
                     <a class="nav-link" href="{{ 'web-animation' }}">Web animation</a>
                 </li>
 
-                <li>
             </ul>
         </div>
     </div>

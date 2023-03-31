@@ -6,7 +6,26 @@
     }
 
     .nav-item {
+        position: relative;
+
+
+        &:after {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            background-color: var(--primary-color);
+            top: 0;
+            right: -14px;
+
+        }
+        &:last-child::after {
+            display: none;
+        }
+
         .nav-link {
+            padding-left: 2rem;
+
             &, &.active {
                 color: var(--text-color);
             }

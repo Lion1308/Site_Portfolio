@@ -65,9 +65,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ 'illustration' }}">Illustration</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ 'video-editing' }}">Video editing</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="{{ 'video-editing' }}">Video editing</a>--}}
+{{--                </li>--}}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ 'web-animation' }}">Web animation</a>
                 </li>

@@ -9,9 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 </head>
-<body>
+<body class="wrapper">
     <x-header></x-header>
-@yield('content')
+    <div class="content">
+        @yield('content')
+    </div>
     <x-footer></x-footer>
 </body>
 </html>

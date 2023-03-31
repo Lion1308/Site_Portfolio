@@ -26,9 +26,9 @@ Route::get('/illustration', function () {
     return view('illustration');
 })->name('illustration');
 
-Route::get('/video-editing', function () {
-    return view('video-editing');
-})->name('video-editing');
+//Route::get('/video-editing', function () {
+//    return view('video-editing');
+//})->name('video-editing');
 
 Route::get('/web-animation', function () {
     return view('web-animation');

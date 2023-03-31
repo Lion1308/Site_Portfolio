@@ -33,12 +33,13 @@
 }
 
 html {
-
+    height: 100%;
 }
 
 body {
     background-color: var(--bg-color);
     //color: var(--text-color);
+    height: 100%;
 
     .nav-item {
         font-family: 'Roboto-Medium';
@@ -47,8 +48,19 @@ body {
     }
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 
+.content {
+    flex: 1 1 auto;
+}
 
+//ABOUT ME
+
+//Start Hero-container
 .hero {
     position: relative;
 
@@ -86,10 +98,6 @@ body {
             position: absolute;
             transition: all 1s ease-in-out;
 
-            //@include media-breakpoint-down(lg) {
-            //    display: none;
-            //}
-
             &:nth-child(1) {
                 top: 0;
                 left: 20%;
@@ -104,7 +112,6 @@ body {
                 @include media-breakpoint-down(md) {
                     display: none;
                 }
-
             }
 
             &:nth-child(2) {
@@ -166,7 +173,9 @@ body {
 
     }
 }
+//End Hero-container
 
+//Start Skills
 .skills {
     position: relative;
     padding-bottom: 5rem !important;
@@ -207,10 +216,6 @@ body {
         img {
             position: absolute;
             transition: all 1s ease-in-out;
-
-            //@include media-breakpoint-down(lg) {
-            //    display: none;
-            //}
 
             &:nth-child(1) {
                 bottom: -5%;
@@ -279,9 +284,10 @@ body {
             }
         }
     }
-
 }
+//End Skills
 
+//Start Testimonials
 .testimonials {
     position: relative;
 
@@ -357,7 +363,8 @@ body {
             }
         }
     }
-
 }
+//End Testimonials
 
+//MOTION DESIGN
 

@@ -192,6 +192,12 @@ body {
         font-size: 24px;
     }
 
+    .light {
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
+    }
+
     .skills-title{
         text-align: center;
 

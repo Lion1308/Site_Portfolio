@@ -111,13 +111,13 @@
         <div class="swiper container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback1.png') }}">
+                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback/feedback1.png') }}">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback2.png') }}">
+                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback/feedback2.png') }}">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback3.png') }}">
+                    <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback/feedback3.png') }}">
                 </div>
                 <div class="swiper-slide">
                     <img src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/feedback/feedback4.png') }}">
@@ -127,10 +127,6 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-
-{{--            <div class="swiper-button-prev"></div>--}}
-{{--            <div class="swiper-button-next"></div>--}}
-
             <div class="swiper-scrollbar"></div>
         </div>
         <div class="testimonials-bg container">

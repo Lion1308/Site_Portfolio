@@ -12,7 +12,6 @@
 
 :root {
     --bg-color: #fafafa;
-    //--text-color: #3b3b3b;
     --primary-color: #670E7C;
     --secondary-color: #575775;
     --nav-color: #343456;
@@ -28,7 +27,6 @@ html {
 
 body {
     background-color: var(--bg-color);
-    //color: var(--text-color);
     height: 100%;
     font-family: Montserrat, sans-serif;
     display: flex;
@@ -361,4 +359,12 @@ body {
 //End Testimonials
 
 //MOTION DESIGN
+
+//WEB ANIMATION
+
+.img-for-iframe {
+    img {
+        width: 100%;
+    }
+}
 

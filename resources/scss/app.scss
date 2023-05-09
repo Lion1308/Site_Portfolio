@@ -360,11 +360,129 @@ body {
 
 //MOTION DESIGN
 
+.gif {
+    position: relative;
+
+    .gif-container {
+
+    }
+
+    .gif-container-bg {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+
+        img {
+            position: absolute;
+
+            &:nth-child(1) {
+                top: 10%;
+                left: -5%;
+                transform: rotate(90deg) scale(0.8);
+
+                @include media-breakpoint-down(lg) {
+                    top: 10%;
+                    left: -15%;
+                    transform: rotate(90deg) scale(0.6);
+                }
+
+                @include media-breakpoint-down(md) {
+                    display: none;
+                }
+            }
+
+            &:nth-child(2) {
+                bottom: 20%;
+                left: -10%;
+                transform: rotate(90deg);
+
+                @include media-breakpoint-down(lg) {
+                    bottom: 20%;
+                    left: -10%;
+                    transform: rotate(90deg) scale(0.6);
+                }
+
+                @include media-breakpoint-down(md) {
+                    display: none;
+                }
+            }
+
+            &:nth-child(3) {
+                bottom: 15%;
+                right: 10%;
+
+                @include media-breakpoint-down(md) {
+                    display: none;
+                }
+            }
+
+            &:nth-child(4) {
+                bottom: -13%;
+                left: 47%;
+                transform: scale(0.8);
+                display: none;
+
+                @include media-breakpoint-down(lg) {
+                    display: none;
+                }
+            }
+
+            &:nth-child(5) {
+                bottom: 25%;
+                right: 10%;
+                transform: scale(0.8);
+
+                @include media-breakpoint-down(lg) {
+                    display: none;
+                }
+            }
+
+            &:nth-child(6) {
+                top: 0;
+                right: 0;
+                transform: scale(0.6);
+
+                @include media-breakpoint-down(lg) {
+                    top: 0;
+                    right: 0;
+                    transform: scale(0.6);
+                    //display: none;
+                }
+
+                @include media-breakpoint-down(md) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
 //WEB ANIMATION
 
 .img-for-iframe {
     img {
         width: 100%;
+    }
+}
+
+//ILLUSTRATION
+
+.accordion-button, .accordion-body {
+    img {
+        width: 50%;
+    }
+
+    h2, h4, p {
+        text-align: center;
+        color: var(--secondary-color);
+        font-weight: 400;
+    }
+
+    h2, h4 {
+        font-weight: 500;
+        color: var(--nav-color);
     }
 }
 

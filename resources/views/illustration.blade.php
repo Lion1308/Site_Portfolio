@@ -8,7 +8,7 @@
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed flex-column" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        <img
+                        <img class="col-12 w-50"
                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travelPack.webp') }}"
                             alt="">
                     </button>
@@ -16,18 +16,22 @@
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                      data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body row justify-content-center">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel4.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel2.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel3.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel1.webp') }}"
-                            alt="">
+
+                        <div class="row">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel4.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel2.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel3.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/travel_icon/travel1.webp') }}"
+                                alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -36,7 +40,7 @@
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed flex-column" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        <img
+                        <img class="col-12 w-50"
                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lifeAtHome.webp') }}"
                             alt="">
                     </button>
@@ -61,33 +65,37 @@
                                 Color palette
                             </h4>
                         </div>
-                        <img class="w-75"
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/color.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah1.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah2.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah3.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah4.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah5.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah6.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah7.webp') }}"
-                            alt="">
-                        <img
-                            src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah8.webp') }}"
-                            alt="">
+
+                        <div class="row">
+                            <img class="col-12"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/color.webp') }}"
+                                 alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah1.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah2.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah3.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah4.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah5.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah6.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah7.webp') }}"
+                                alt="">
+                            <img class="col-6"
+                                src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah8.webp') }}"
+                                alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -97,7 +105,7 @@
                     <button class="accordion-button collapsed flex-column" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                             aria-controls="flush-collapseThree">
-                        <img
+                        <img class="col-12 w-50"
                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki.webp') }}"
                             alt="">
                     </button>
@@ -105,21 +113,25 @@
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                      data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body d-flex flex-column align-items-center">
-                        <img class="m-2"
-                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki2.webp') }}"
-                             alt="">
-                        <img class="m-2"
-                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki3.webp') }}"
-                             alt="">
-                        <img class="m-2"
-                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki4.webp') }}"
-                             alt="">
-                        <img class="m-2"
-                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki5.webp') }}"
-                             alt="">
-                        <img class="m-2"
-                             src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki6.webp') }}"
-                             alt="">
+
+                        <div class="row">
+                            <img class="py-2 w-50"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki2.webp') }}"
+                                 alt="">
+                            <img class="py-2 w-50"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki3.webp') }}"
+                                 alt="">
+                            <img class="py-2 w-50"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki4.webp') }}"
+                                 alt="">
+                            <img class="py-2 w-50"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki5.webp') }}"
+                                 alt="">
+                            <img class="py-2 w-50"
+                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/kiki/kiki6.webp') }}"
+                                 alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>

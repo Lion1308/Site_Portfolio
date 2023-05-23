@@ -106,18 +106,18 @@ $(document).ready(function() {
 */
 
 
-$(document).ready(function() {
-    $('.video-link').click(function() {
-        var videoUrl = $(this).data('video');
-        var downloadLink = document.createElement('a');
-        downloadLink.setAttribute('target', '_blank');
-        downloadLink.href = videoUrl;
-        downloadLink.download = 'video.mp4';
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-    });
-});
+// $(document).ready(function() {
+//     $('.video-link').click(function() {
+//         var videoUrl = $(this).data('video');
+//         var downloadLink = document.createElement('a');
+//         downloadLink.setAttribute('target', '_blank');
+//         downloadLink.href = videoUrl;
+//         downloadLink.download = 'video.mp4';
+//         document.body.appendChild(downloadLink);
+//         downloadLink.click();
+//         document.body.removeChild(downloadLink);
+//     });
+// });
 
 
 /*
@@ -130,3 +130,13 @@ $(document).ready(function() {
     });
 });
 */
+
+// let videoDown = document.querySelector('.accordion-button');
+// console.log("1 " + videoDown);
+//
+// let videoDown2 = document.querySelectorAll('.accordion-button');
+// console.log("2 " + videoDown2);
+//
+// videoDown.addEventListener('click', function (){
+//     alert('message')
+// });

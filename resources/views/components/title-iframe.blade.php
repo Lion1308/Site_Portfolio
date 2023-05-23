@@ -1,3 +1,5 @@
 <div {{ $attributes->merge(['class' => 'iframe-wrapper']) }}>
-    <img src="{{ $image ?? null }}" alt="">
+    <a href="{{$url}}" target="_blank">
+        <img src="{{ $image ?? null }}" alt="">
+    </a>
 </div>

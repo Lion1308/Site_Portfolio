@@ -455,6 +455,7 @@ body {
             }
         }
     }
+
 }
 
 
@@ -465,14 +466,16 @@ body {
     img {
         width: 100%;
     }
+
+    cursor: pointer;
 }
 
 //ILLUSTRATION
 
 .accordion-button, .accordion-body {
-    img {
-        width: 50%;
-    }
+    //img {
+    //    width: 50%;
+    //}
 
     h2, h4, p {
         text-align: center;

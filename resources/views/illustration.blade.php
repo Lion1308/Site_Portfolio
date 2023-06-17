@@ -66,10 +66,12 @@
                             </h4>
                         </div>
 
+                        <x-pallet :colors="['#ff7b36', '#ffd41c', '#0090bf', '#fe96d7', '#38346c']" />
+
                         <div class="row">
-                            <img class="col-12"
-                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/color.webp') }}"
-                                 alt="">
+{{--                            <img class="col-12"--}}
+{{--                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/color.webp') }}"--}}
+{{--                                 alt="">--}}
                             <img class="col-6"
                                 src="{{ \Illuminate\Support\Facades\Vite::asset('resources/images/illustration/life_at_home/lah1.webp') }}"
                                 alt="">
